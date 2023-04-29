@@ -1,0 +1,64 @@
+/* Created by Sirine Cherkaoui
+* Created on April 2023
+* This CSS file defines the style for index.html
+* Assign-04-HTML-BeaverTailOrder*/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+table, th, td {
+  border: 2px solid #ffffff;
+  border-collapse: collapse;
+  background-color: hsl(0, 100%, 68%); 
+  font-weight: 600;
+  color: hsl(0, 44%, 30%); 
+}
+
+/* Change the title color and center it */
+.mdl-layout-title {
+  margin: 0 auto;
+  color: hsl(27, 100%, 100%); 
+  font-weight: 600;
+}
+
+h4 {
+  margin: 0 auto;
+  color: hsl(0, 44%, 32%); 
+  font-weight: 600;
+  width: 50%;
+}
+
+h3 {
+  margin: 0 auto;
+  color: hsl(0, 0%, 100%); 
+  font-weight: 600;
+  width: 50%;
+}
+
+p.double {
+  border-style: double;
+  
+}
+
+#grey {
+  background-color: #ebe9e8;
+  padding: 10px 30px 20px 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+p{
+ color: rgb(98, 29, 29); 
+ font-weight: 600;
+
+}
+
+#two {
+  width: 50%;
+}
+
+#one {
+  width: 50%;
+}
